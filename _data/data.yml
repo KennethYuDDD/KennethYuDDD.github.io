@@ -57,13 +57,13 @@ sidebar:
       title: other skills
       info:
         - item: Web dev
-          level: beginner
-        - item: Marketing
-          level: 
-        - item: Video editing
-          level: 
+          detail: Flask, Django
         - item: LÖVE 2D
-        - item: PICO-8
+          detail: + Box 2D
+        - item: Video editing
+          detail: Olive
+        - item: 3D modelling
+          detail: Blender
 
 
 career-profile:
@@ -109,15 +109,15 @@ projects:
     intro: 
     assignments:
       - title: Hectic Bins
-        link: "#"
+        link: "https://ldjam.com/events/ludum-dare/52/4-harvest-bags"
         tagline: "A game originally made for a game jam - Ludum Dare 52. Got 112th out of 1641 submissions in the fun category as a result. Later ported to mobile and listed on Google Play."
 
       - title: Ninja Dash
-        link: "#"
+        link: "https://ddd2ddd.itch.io/ninja-dash"
         tagline: "After learning from an online course and various other resources about programming, I was curious how those design patterns could be implemented in Unity and created this endless runner game as a practice."
 
       - title: GMO Forest
-        link: "#"
+        link: "https://drive.google.com/file/d/1A3r600D6lxBI1-OHlGFiC0wDF8fs7rPo/view?usp=sharing"
         tagline: "Educational game about DNA and RNA, using the genre tower defense as a media. Player needs to collect pieces and use them to build a tower that matches the type of the enemy, mimicking how our immune systems kill virus."
 
 # oss:
