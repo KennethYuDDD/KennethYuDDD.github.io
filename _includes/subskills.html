@@ -1,0 +1,23 @@
+{% assign subskills = site.data.data.sidebar.subskills %}
+{% if subskills %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    {{ subskills.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for subskill in subskills.info %}
+
+      <li>
+        {{ subskill.item }}
+        {% if subskill.level %}
+        <span class="lang-desc">({{ subskill.level }})</span>
+        {% endif %}
+      </li>
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

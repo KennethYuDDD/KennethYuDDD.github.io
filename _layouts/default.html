@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="white">
+        <!-- Theme mode -->
+        <script>
+            let mode = window.localStorage.getItem('mode'),
+                root = document.getElementsByTagName('html')[0];
+            if (mode !== undefined && mode === 'dark') {
+                root.classList.add('dark-mode');
+            } else {
+                root.classList.remove('dark-mode');
+            }
+        </script>
+        <!-- Vendor styles -->
+        {% for style in page.styles %}
+            <link rel="stylesheet" href="{{ style }}">
+        {% endfor %}
+        <!-- Main Theme Styles + Bootstrap -->
+        <link rel="stylesheet" href="assets/around/css/theme.min.css">
+    </head>
+    <body>
+        <!-- Page wrapper -->
+        <main class="page-wrapper">
+            <!-- Navbar -->
+            <header class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        Kenneth Yu
+                    </a>
+                    <!--
+                        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" title="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <nav class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Projects</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="dropdown-item">Action link</a></li>
+                                        <li><a href="#" class="dropdown-item">Another link</a></li>
+                                        <li class="dropdown-divider"> </li>
+                                        <li href="#"><a class="dropdown-item">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    -->
+                </div>
+            </header>
+            {{ content }}
+        </main>
+        <!-- Vendor scripts -->
+        <script src="assets/around/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+        <script src="assets/around/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+        {% for script in page.scripts %}
+            <script src="{{ script }}"></script>
+        {% endfor %}
+        <!-- Main theme script -->
+        <script src="assets/around/js/theme.min.js"></script>
+    </body>
+</html>

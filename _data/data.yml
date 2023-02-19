@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kenneth Yu
+    tagline: Unity Programmer
+    avatar: #profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kennethyu1224@outlook.com
+    phone: 6315 6037
+    timezone: #America/Cancun Timezone
+    citizenship:
+    website: uyhtennek.github.io #do not add http://
+    linkedin: #alandoe
+    xing: #alandoe
+    github: #uyhtennek
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: #'@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: #http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Intermediate
+
+        - idiom: Mandarin
+          level: Intermediate
+
+        - idiom: Cantonese
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: ACG
+          link:
+
+        - item: Movie
+          link:
+
+        - item: Coding
+          link:
+
+    subskills:
+      title: other skills
+      info:
+        - item: Web dev
+          level: beginner
+        - item: Marketing
+          level: 
+        - item: Video editing
+          level: 
+        - item: LÖVE 2D
+        - item: PICO-8
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Game Programmer with 1 year of experience developing mobile games using Unity. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization and CI/CD in games to increase efficiency.
+education:
+    title: Education
+    info:
+      - degree: BSc in Multimedia
+        university: THEi (IVE)
+        time: 2017 - 2021
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+experiences:
+    title: Work Experiences
+    info:
+      - role: Junior Programmer
+        time: 2021 - 2022
+        company: Minidragon
+        details: |
+            - Run the game *Tiny Fantasy* with a team.
+            - Develop and distribute new content through new builds and Addressables, which is an asset management system like Asset Bundles;
+            - Respond to player requests like account issues, feature requests, bug fixes;
+            - Modify parameters and skills of equipments, characters and enemies to maintain game balance;
+            - Use *I2Localization* to localize the game; and
+            - Version control using Git.
+      - role: Unity developer (part-time)
+        time: 2019 - 2020
+        company: Mint-asia
+        details: |
+            - Develop an educational competitive game with a team of 5 members, using Unity and Photon.
+            - Teach players about war strategies and history events through developing in-game missions.
+            - Use Unity terrain system to create the battlefield.
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: Hectic Bins
+        link: "#"
+        tagline: "A game originally made for a game jam - Ludum Dare 52. Got 112th out of 1641 submissions in the fun category as a result. Later ported to mobile and listed on Google Play."
+
+      - title: Ninja Dash
+        link: "#"
+        tagline: "After learning from an online course and various other resources about programming, I was curious how those design patterns could be implemented in Unity and created this endless runner game as a practice."
+
+      - title: GMO Forest
+        link: "#"
+        tagline: "Educational game about DNA and RNA, using the genre tower defense as a media. Player needs to collect pieces and use them to build a tower that matches the type of the enemy, mimicking how our immune systems kill virus."
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Technologies
+
+    toolset:
+      - name: Unity & C#
+        level: 90%
+
+      - name: Git & GitHub
+        level: 80%
+
+      - name: Lua, Python, JS
+        level: 70%
+
+      - name: Unity Gaming Service
+        level: 60%
+
+      - name: Firebase
+        level: 50%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
