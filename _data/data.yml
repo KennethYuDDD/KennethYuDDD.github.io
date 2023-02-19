@@ -54,7 +54,7 @@ sidebar:
           link:
 
     subskills:
-      title: Technologies
+      title: Skills
       info:
         - item: Unity & C#
           detail: Intermediate
@@ -67,13 +67,12 @@ sidebar:
         - item: Flask, Django, SQLite
           detail: beginner
         - item: Blender
-        - item: ChatGPT
 
 
 career-profile:
-    title: Career Summary
+    title: Career Profile
     summary: |
-      Game Programmer with 1 year of experience developing mobile games using Unity. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization and CI/CD in games to increase efficiency.
+      Game Programmer with experience developing mobile games for one year and have been using the Unity engine for 2 years. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization and CI/CD in games to increase efficiency.
 education:
     title: Education
     info:
@@ -117,16 +116,16 @@ certifications:
           organization: Harvard University
           credentialid: 
           credentialurl: https://certificates.cs50.io/42b6d6cb-9bf5-4b7a-ba65-e834d02ccaf8.pdf
-          credentialname: 
+          credentialname: cs50g
           details: |
             Complete 12 projects, mostly using Löve 2D. Allow me to understand game concepts like Entity Component System and design concepts like state stack, data-driven design.
         - name: CS50x
           start: 2022
-          end:
+          end: 
           organization: Harvard University
           credentialid: 
           credentialurl: https://certificates.cs50.io/6dbff1c3-f023-419b-bd9f-a80a2ef7a9d0.pdf
-          credentialname: 
+          credentialname: cs50x
           details: |
             Complete 18 assignments and 1 final project, for learning from C, memory, data strctures, then Python and SQL, then ends with the Internet, web development and session.
             

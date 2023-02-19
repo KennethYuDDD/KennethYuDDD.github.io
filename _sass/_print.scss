@@ -16,13 +16,14 @@
       padding-right: 270px;
 
       .upper-row {
-         margin-bottom: 0;
+         margin-bottom: -5px;
       }
     }
 
    .main-wrapper .time {
-       float: right;
-        color: black !important;
+      font-size: 6pt;
+       flex: none;
+        // color: black !important;
         -webkit-print-color-adjust: exact; 
    }
 
@@ -31,7 +32,7 @@
    }
    .main-wrapper .section-title {
       font-size: 12pt;
-      margin-bottom: 4px;
+      margin-bottom: 12px;
    }
 
    .main-wrapper .job-title {

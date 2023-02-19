@@ -329,11 +329,11 @@ p {
     padding-right: 270px;
   }
   .main-wrapper .upper-row {
-    margin-bottom: 0;
+    margin-bottom: -5px;
   }
   .main-wrapper .time {
-    float: right;
-    color: black !important;
+    font-size: 6pt;
+    flex: none;
     -webkit-print-color-adjust: exact;
   }
   .main-wrapper .section {
@@ -341,7 +341,7 @@ p {
   }
   .main-wrapper .section-title {
     font-size: 12pt;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
   }
   .main-wrapper .job-title {
     font-size: 10pt;
