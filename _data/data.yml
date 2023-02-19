@@ -54,20 +54,24 @@ sidebar:
           link:
 
     subskills:
-      title: other skills
+      title: Technologies
       info:
-        - item: Web dev
-          detail: Flask, Django
-        - item: LÖVE 2D
-          detail: + Box 2D
-        - item: Video editing
-          detail: Olive
-        - item: 3D modelling
-          detail: Blender
+        - item: Unity & C#
+          detail: Intermediate
+        - item: Git & GitHub
+          detail: Intermediate
+        - item: Lua, Python, JavaScript
+          detail: 
+        - item: Unity Gaming Service, Firebase
+          detail: 
+        - item: Flask, Django, SQLite
+          detail: beginner
+        - item: Blender
+        - item: ChatGPT
 
 
 career-profile:
-    title: Career Profile
+    title: Career Summary
     summary: |
       Game Programmer with 1 year of experience developing mobile games using Unity. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization and CI/CD in games to increase efficiency.
 education:
@@ -91,19 +95,42 @@ experiences:
         time: 2021 - 2022
         company: Minidragon
         details: |
-            - Run the game *Tiny Fantasy* with a team.
-            - Develop and distribute new content through new builds and Addressables, which is an asset management system like Asset Bundles;
-            - Respond to player requests like account issues, feature requests, bug fixes;
-            - Modify parameters and skills of equipments, characters and enemies to maintain game balance;
-            - Use *I2Localization* to localize the game; and
-            - Version control using Git.
+            - Run the game [Tiny Fantasy](https://play.google.com/store/apps/details?id=com.minidragon.dw) with a team.
+            - Develop and distribute new content for more than 7 events;
+            - Run a Discord community with dozens active players and respond to their account issues, feature requests, bug reports;
+            - Profile the game to improve lags and freezings. One example is applying object pooling to UI game objects to remove freezing caused by loading.
+            - Develop a game feature, which works much like an idle game where player rents out resources and gain more resources in return after some hours. So that the game gains retention.
       - role: Unity developer (part-time)
         time: 2019 - 2020
         company: Mint-asia
         details: |
-            - Develop an educational competitive game with a team of 5 members, using Unity and Photon.
-            - Teach players about war strategies and history events through developing in-game missions.
+            - Develop an educational competitive game with a team of 5 members, using Photon.
+            - Introduce to players a number of war strategies and history events through developing game missions.
             - Use Unity terrain system to create the battlefield.
+
+certifications:
+      title: Certifications
+      list:
+        - name: CS50's Introduction to Game Development
+          start: 2023
+          end: 
+          organization: Harvard University
+          credentialid: 
+          credentialurl: https://certificates.cs50.io/42b6d6cb-9bf5-4b7a-ba65-e834d02ccaf8.pdf
+          credentialname: 
+          details: |
+            Complete 12 projects, mostly using Löve 2D. Allow me to understand game concepts like Entity Component System and design concepts like state stack, data-driven design.
+        - name: CS50x
+          start: 2022
+          end:
+          organization: Harvard University
+          credentialid: 
+          credentialurl: https://certificates.cs50.io/6dbff1c3-f023-419b-bd9f-a80a2ef7a9d0.pdf
+          credentialname: 
+          details: |
+            Complete 18 assignments and 1 final project, for learning from C, memory, data strctures, then Python and SQL, then ends with the Internet, web development and session.
+            
+
 projects:
     title: Projects
     intro: 
@@ -161,24 +188,24 @@ projects:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Technologies
+# skills:
+#     title: Technologies
 
-    toolset:
-      - name: Unity & C#
-        level: 90%
+#     toolset:
+#       - name: Unity & C#
+#         level: 90%
 
-      - name: Git & GitHub
-        level: 80%
+#       - name: Git & GitHub
+#         level: 80%
 
-      - name: Lua, Python, JS
-        level: 70%
+#       - name: Lua, Python, JS
+#         level: 70%
 
-      - name: Unity Gaming Service
-        level: 60%
+#       - name: Unity Gaming Service
+#         level: 60%
 
-      - name: Firebase
-        level: 50%
+#       - name: Firebase
+#         level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
