@@ -41,38 +41,39 @@ sidebar:
         - idiom: Cantonese
           level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: ACG
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: ACG
+    #       link:
 
-        - item: Movie
-          link:
+    #     - item: Movie
+    #       link:
 
-        - item: Coding
-          link:
+    #     - item: Coding
+    #       link:
 
     subskills:
       title: Skills
       info:
         - item: Unity & C#
-          detail: Intermediate
+          detail: 
         - item: Git & GitHub
-          detail: Intermediate
+          detail: 
         - item: Lua, Python, JavaScript
           detail: 
         - item: Unity Gaming Service, Firebase
           detail: 
         - item: Flask, Django, SQLite
-          detail: beginner
-        - item: Blender
+          detail: 
+        - item: Arduino
+          detail:
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Game Programmer with experience developing mobile games for one year and have been using the Unity engine for 2 years. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization and CI/CD in games to increase efficiency.
+      Game Programmer with experience developing mobile games for one year and have been using the Unity engine for 2 years. Understand design principles like composition over inheritance, and adopted data-driven design to easily create game levels. Learning about automization for games to increase efficiency.
 education:
     title: Education
     info:
@@ -118,7 +119,7 @@ certifications:
           credentialurl: https://certificates.cs50.io/42b6d6cb-9bf5-4b7a-ba65-e834d02ccaf8.pdf
           credentialname: cs50g
           details: |
-            Complete 12 projects, mostly using Löve 2D. Allow me to understand game concepts like Entity Component System and design concepts like state stack, data-driven design.
+            Complete 12 projects, mostly using Löve 2D. Teach me about concepts like Entity Component System and designs like state stack, data-driven design.
         - name: CS50x
           start: 2022
           end: 
